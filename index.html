@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carl Betsa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>GitHub</h1>
+        <nav>
+            <a href="#projetos">Projects</a>
+            <a href="#sobre">About Me</a>
+            <a href="#contato">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Carl Betsa Costa</h2>
+        <p>I am a Brazilian Software Engineer currently living in Portugal, seeking opportunities across Europe. I have
+            experience working as a full‑stack web developer, including remote collaboration and agile methodologies
+            such as Scrumban.</p>
+    </section>
+
+    <div id="lightbox" style="display:none;">
+        <img id="lightboxImage" src="">
+    </div>
+
+    <h2 style="text-align:center;margin-top:2rem;opacity:0.9;">Projects developed during my time at Saturno Pedals</h2>
+    <section id="projetos" class="projects">
+        <div class="project-card">
+            <h3>Saturn Controllers Editor</h3>
+            <p>A fully custom-built website created to allow Saturn Pedals customers to visually configure their
+                controllers' via MIDI Protocol. Through intuitive tables, dynamic popups, and a clear interface, users can easily 
+                create, edit, and export their controller settings directly from the browser.</p>
+            <p class="project-info">' Controllers are external devices used to manage and switch effects settings for connected
+                pedals", providing quick and convenient control during live performances or studio sessions <br>
+                " Pedals are devices used by guitarists to modify and shape their sound.</p>
+            <div class="gallery" style="margin-top: 22px;">
+                <div id="mainDisplay" class="main-display">
+                    <img id="mainImage" class="main-image" src="images/saturn-controller-1.jpeg" />
+                    <video id="mainVideo" class="main-video" controls muted playsinline style="display:none;"></video>
+                </div>
+
+                <div class="thumbnails">
+                    <img src="images/saturn-controller-1.jpeg" class="thumb" data-type="image" data-src="images/saturn-controller-1.jpeg">
+                    <!--<img src="images/saturn-controller-2.png" class="thumb" data-type="image" data-src="images/saturn-controller-2.png">
+                    <img src="images/saturn-controller-3.png" class="thumb" data-type="image" data-src="images/saturn-controller-3.png">-->
+
+                    <img src="images/thumbs/Thumb-1.png" 
+                        class="thumb"
+                        data-type="video"
+                        data-src="videos/Lancamento-1.mp4">
+                </div>
+            </div>
+
+            <h3 style="margin-top:30px;margin-bottom:-10px;">Youtube Showcase</h3>
+            <div class="release-video">
+                <a href="https://www.youtube.com/watch?v=YUBUuWw0Yc0&t=167" target="_blank"
+                    style="display:block;margin-top:1rem;">
+                    <img src="https://img.youtube.com/vi/YUBUuWw0Yc0/hqdefault.jpg" alt="Watch Project Video"
+                        style="width:100%;border-radius:0.7rem;cursor:pointer;" />
+                </a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>Saturn Pedals Editor</h3>
+            <p>The successor to the Saturn Controllers Editor, this project was built to configure effect presets for
+                Saturn Pedals devices. It allows users to edit parameters, manage pedal settings, and apply changes
+                directly to the hardware through a clean and intuitive interface.</p>
+
+            <p style="margin-top:0.8rem;opacity:0.85;">A second version was later developed, introducing backup
+                creation, sound sharing, and access to official presets provided by the company. The website dynamically
+                fetches data from the database and updates the pedal in real time.</p>
+            <div class="gallery">
+                <div id="mainDisplay" class="main-display">
+                    <img id="mainImage" class="main-image" src="images/saturn-pedal-1.png" />
+                    <video id="mainVideo" class="main-video" controls muted playsinline style="display:none;"></video>
+                </div>
+
+                <div class="thumbnails">
+                    <img src="images/saturn-pedal-1.png" class="thumb" data-type="image" data-src="images/saturn-pedal-1.png">
+                    <img src="images/saturn-pedal-2.png" class="thumb" data-type="image" data-src="images/saturn-pedal-2.png">
+                    <img src="images/saturn-pedal-3.png" class="thumb" data-type="image" data-src="images/saturn-pedal-3.png">
+
+                    <img src="images/thumbs/Thumb-2.png" 
+                        class="thumb"
+                        data-type="video"
+                        data-src="videos/Lancamento-2.mp4">
+                    <img src="images/thumbs/Thumb-3.png" 
+                        class="thumb"
+                        data-type="video"
+                        data-src="videos/Lancamento-3.mp4">
+                </div>
+            </div>
+            <h3 style="margin-top:30px;margin-bottom:-10px;">Youtube Showcase</h3>
+            <div class="release-video">
+                <a href="https://www.youtube.com/watch?v=NF5NNCevMeY&t=167" target="_blank"
+                    style="display:block;margin-top:1rem;">
+                    <img src="https://img.youtube.com/vi/NF5NNCevMeY/hqdefault.jpg" alt="Watch Project Video"
+                        style="width:100%;border-radius:0.7rem;cursor:pointer;" />
+                </a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>Community Feedback</h3>
+            <p>This section showcases feedback from the community based on the launch of the Saturno Pedals
+                projects. Screenshots highlight comments and reactions from users.</p>
+
+
+            <div class="feedback-columns">
+                <!-- Coluna 1 -->
+                <div>
+                    <img src="images/feedback/feedback-pedal-1.png" alt="Community Feedback 1"
+                        style="width:100%;border-radius:0.7rem;" />
+                </div>
+
+                <!-- Coluna 2 -->
+                <div>
+                    <div><img src="images/feedback/feedback-pedal-3.png" alt="Feedback 2"
+                            style="width:100%;border-radius:0.7rem;height:99%;" /></div>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
+                        <img src="images/feedback/feedback-controller-2.png" alt="Feedback 3"
+                            style="width:105%;border-radius:0.7rem;" />
+                        <img src="images/feedback/feedback-pedal-2.png" alt="Feedback 4"
+                            style="width:95%;border-radius:0.7rem;margin-left:19px;" />
+                    </div>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
+                        <img src="images/feedback/feedback-controller-3.png" alt="Feedback 5"
+                            style="width:83%;border-radius:0.7rem;" />
+                        <img src="images/feedback/feedback-controller-4.png" alt="Feedback 6"
+                            style="width:117%;border-radius:0.7rem;margin-left:-63px;" />
+                    </div>
+                </div>
+
+                <!-- Coluna 3 -->
+                <div>
+                    <img src="images/feedback/feedback-controller-1.png" alt="Feedback 7"
+                        style="width:100%;border-radius:0.7rem;" />
+                    <img src="images/feedback/feedback-pedal-4.png" alt="Feedback 8"
+                        style="width:100%;border-radius:0.7rem;" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 style="text-align:center;margin-top:2rem;opacity:0.9;">About Me</h2>
+    <section id="sobre" class="about">
+        <p>Since I was young, I have always been passionate about technology. My curiosity about how things work and the
+            desire to create something of my own naturally led me toward programming. In 2020, I took an important step
+            and started college, but this moment coincided with one of the most unusual periods of our time: the
+            COVID-19 pandemic.<br><br>
+            Just one month after the beginning of the semester, all classes transitioned to remote learning. It was a
+            challenging period. Adapting to the online format was challenging at first and affected the routine, and even
+            motivation. However, it also taught me discipline, autonomy, and how to learn independently. I believe this
+            experience shaped me into a more resilient professional and prepared me for hybrid or fully remote work
+            environments, which have become increasingly common in the tech industry.<br><br>
+            In 2022, after two years of remote classes, I returned to in-person learning. The transition felt strange at
+            first, but everything eventually regained its rhythm. I kept progressing without further interruptions until
+            I completed my degree in 2024, officially becoming a Software Engineer, an achievement that represented not
+            only technical growth but also perseverance through an unprecedented time.<br><br>
+            In 2025, I was hired by Saturno Pedais, where I worked throughout the year as a full-stack web developer. I
+            develoed every part of the project, from backend logic to user-facing interfaces, and each delivery
+            felt rewarding, as if I had truly found my purpose. This experience strengthened my passion for development
+            and for building complete, meaningful solutions.<br><br>
+            I am currently living in Portugal and seeking new opportunities to continue improving my skills and
+            contributing to innovative projects. My goal is to keep evolving as a professional and explore even more of
+            the vast world of technology that has fascinated me since childhood.</p>
+    </section>
+
+    <h2 style="text-align:center;margin-top:4rem;opacity:0.9;">Contacts</h2>
+    <section class="contact" id="contato">
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <a href="mailto:carlbetsa7@gmail.com">carlbetsa7@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <a class="phone-copy" data-phone="+351929047441">+351 929 047 441</a>
+            </div>
+
+            <div class="contact-item">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/carl-betsa-costa/" target="_blank">
+                    linkedin.com/in/carl-betsa-costa
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <h3>GitHub</h3>
+                <a href="https://github.com/CarlBetsa" target="_blank">
+                    github.com/CarlBetsa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 - Carl Betsa Costa
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
